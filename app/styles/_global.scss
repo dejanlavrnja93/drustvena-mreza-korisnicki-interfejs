@@ -1,0 +1,53 @@
+$primary-color: #4caf50;
+$accent-color: #388e3c;
+$warn-color: #dc3545;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $accent-color;
+    }
+}
+
+#table-details {
+    overflow-x: auto;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 24px;
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: $primary-color;
+            color: white;
+        }
+
+        tbody tr:hover {
+            background-color: #eee;
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}

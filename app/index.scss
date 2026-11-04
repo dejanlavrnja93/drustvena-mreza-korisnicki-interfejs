@@ -1,0 +1,15 @@
+@use "./styles/global" as *;
+
+h1 {
+    color: $primary-color;
+    text-align: center;
+}
+
+#addBtn {
+    display: block;
+    margin: 0 auto;
+}
+
+#no-data-message {
+    text-align: center;
+}
