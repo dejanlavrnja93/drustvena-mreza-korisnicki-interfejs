@@ -1,3 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
 
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #388e3c;
+}
+
+#table-details {
+  overflow-x: auto;
+}
+#table-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+#table-details table th,
+#table-details table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+#table-details table th {
+  background-color: #4caf50;
+  color: white;
+}
+#table-details table tbody tr:hover {
+  background-color: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+  background-color: #4caf50;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+.navbar .navbar-links {
+  display: flex;
+  gap: 20px;
+}
+.navbar .navbar-links a {
+  padding: 8px;
+  border-radius: 4px;
+}
+.navbar .navbar-links a:hover {
+  background-color: #388e3c;
+}
+.navbar .navbar-links a:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+h1 {
+  color: #4caf50;
+  text-align: center;
+}
+
+#no-data-message {
+  text-align: center;
+}
 
 /*# sourceMappingURL=groupUsers.css.map */

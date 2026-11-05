@@ -51,3 +51,41 @@ button {
 .hidden {
     display: none;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: $primary-color;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 20px;
+
+        a {
+            padding: 8px;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: $accent-color;
+            }
+
+            &:focus-visible {
+                outline: 2px solid white;
+                outline-offset: 2px;
+            }
+        }
+    }
+}
